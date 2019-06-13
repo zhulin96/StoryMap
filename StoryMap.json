@@ -1,19 +1,21 @@
-storymap: {
-        language: "en",         
-        map_type: "stamen:toner-lite",          
-        map_as_image: false,      
-        map_subdomains: string,    
-        slides: [
+{
+    "storymap": {
+        "language": "en",          
+        "map_type": "stamen:toner-lite",        
+        "map_as_image": false,       
+        "map_subdomains": string,    
+        "slides": [
 		{
-			type: "overview",      
-			location: {            
-				lat: 21.3174,     
-				lon: -157.7085       
+			"type": "overview",      
+			"location": {            
+				"lat": 21.3174,      
+				"lon": -157.7085       
 			},
-			text: {               
-				headline: "Hiking in Oahu Hawaii",
-				text: "This story map will show hikes around the island of Oahu in Hawaii"      
+			"text": {                
+				"headline": "Hiking in Oahu Hawaii",
+				"text": "This story map will show hikes around the island of Oahu in Hawaii"   
 			}
 		}
 		]           
+    }
 }
