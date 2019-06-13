@@ -1,19 +1,19 @@
 {
     storymap: {
-        language: "en",          // required; two-letter ISO language code
-        map_type: "stamen:toner-lite",          // required
-        map_as_image: false,       // required
-        map_subdomains: string,    // optional
+        language: "en",         
+        map_type: "stamen:toner-lite",          
+        map_as_image: false,      
+        map_subdomains: string,    
         slides: [
 		{
-			type: "overview",      // optional; if present must be set to "overview"
-			location: {            // required for all slides except "overview" slide
-				lat: 21.3174,      // latitude of point on map
-				lon: -157.7085       // longitude of point on map
+			type: "overview",      
+			location: {            
+				lat: 21.3174,     
+				lon: -157.7085       
 			},
-			text: {                // optional if media present
+			text: {               
 				headline: "Hiking in Oahu Hawaii",
-				text: "This story map will show hikes around the island of Oahu in Hawaii"      // may contain HTML markup
+				text: "This story map will show hikes around the island of Oahu in Hawaii"      
 			}
 		}
 		]           
