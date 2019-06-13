@@ -3,7 +3,7 @@
         "language": "en",          
         "map_type": "stamen:toner-lite",        
         "map_as_image": false,       
-        "map_subdomains": string,    
+        "map_subdomains": "string",    
         "slides": [
 		{
 			"type": "overview",      
