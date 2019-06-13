@@ -1,4 +1,6 @@
 {
+    "width": 600,                    
+    "height": 600,
     "storymap": {
         "language": "en",          
         "map_type": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",        
