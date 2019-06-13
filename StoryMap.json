@@ -1,7 +1,7 @@
 {
     "storymap": {
         "language": "en",          
-        "map_type": "stamen:toner-lite",        
+        "map_type": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",        
         "map_as_image": false,       
         "map_subdomains": "string",    
         "slides": [
