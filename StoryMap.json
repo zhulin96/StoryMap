@@ -1,0 +1,21 @@
+{
+    storymap: {
+        language: "en",          // required; two-letter ISO language code
+        map_type: "stamen:toner-lite",          // required
+        map_as_image: false,       // required
+        map_subdomains: string,    // optional
+        slides: [
+		{
+			type: "overview",      // optional; if present must be set to "overview"
+			location: {            // required for all slides except "overview" slide
+				lat: 21.3174,      // latitude of point on map
+				lon: -157.7085       // longitude of point on map
+			},
+			text: {                // optional if media present
+				headline: "Hiking in Oahu Hawaii",
+				text: "This story map will show hikes around the island of Oahu in Hawaii"      // may contain HTML markup
+			}
+		}
+		]           
+    }
+}
